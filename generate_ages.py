@@ -83,7 +83,7 @@ def random_ages(distribution, a=0, b=max_age, size=1):
     result = []
     while len(result) != size:
         age = distribution.rvs()
-        if a <=age <= b:
+        if a <= age < b:
             result.append(age)
     return result
 
