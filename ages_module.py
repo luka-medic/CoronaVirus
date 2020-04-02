@@ -4,6 +4,9 @@ from scipy import stats
 import matplotlib.pyplot as plt
 
 max_age = 100
+age_groups1 = [(0,4),(5,14),(15,24),(25,34),(35,44),(45,54),(55,64),(65,74),(75,84),(85,max_age)]
+age_groups2 = [(0,14),(15,34),(35,54),(55,64),(65,max_age)]
+age_groups3 = [(0,15),(16,29),(30,49),(50,59),(60,max_age)]
 
 def parse_age_groups(age_groups, max_age=max_age):
     '''
@@ -29,11 +32,6 @@ def parse_age_groups_i(age_groups):
     result += [str(age_groups[-1][0])+'+']
     return result
 
-# Load age demography
-age_demograpy = pd.read_csv(r'data/age_demography.csv')
-age_groups_demography = parse_age_groups(age_demograpy['age.group'], max_age)
-
-# Create age demography distributions
 def generate_age_group_distribution(name, age_groups, probabilities):
     '''
     Generates discrete distribution from age demography data.
@@ -49,46 +47,28 @@ def generate_age_group_distribution(name, age_groups, probabilities):
 
     return stats.rv_discrete(name=name, values=(xk, pk))
 
+# Load age demography and Create age demography distributions for female and male
+age_demograpy = pd.read_csv(r'data/age_demography.csv')
+age_groups_demography = parse_age_groups(age_demograpy['age.group'], max_age)
 male_age_demograpy_distribution = generate_age_group_distribution('male_age_demograpy_distribution',age_groups_demography, age_demograpy['male'])
 female_age_demograpy_distribution = generate_age_group_distribution('female_age_demograpy_distribution', age_groups_demography, age_demograpy['female'])
 
-# Load daily acquired date for patients' age groups
-day_from_first_case = 1    # first confirmed case on day 1
+# Load daily acquired date for patients' age groups and Calculate differences between days
+cols = ["age.female."+str(age_group[0])+"-"+str(age_group[1]) for age_group in age_groups1[:-1]]+["age.female."+str(age_groups1[-1][0])+"+"]+\
+       ["age.male."+str(age_group[0])+"-"+str(age_group[1]) for age_group in age_groups1[:-1]]+["age.male."+str(age_groups1[-1][0])+"+"]
 
-age_groups1 = [(0,15),(16,29),(30,49),(50,59),(60,max_age)]
-age_groups2 = [(0,4),(5,14),(15,24),(25,34),(35,44),(45,54),(55,64),(65,74),(75,84),(85,max_age)]
-age_groups3 = [(0,14),(15,34),(35,54),(55,64),(65,max_age)]
+data_stats = pd.read_csv(r"https://raw.githubusercontent.com/slo-covid-19/data/master/csv/stats.csv",
+                          index_col="date",usecols=["date"]+[col+".todate" for col in cols],parse_dates=["date"])
+data_stats.iloc[-1,:].fillna(data_stats.iloc[-2,:], inplace=True)
+data_stats.fillna(0., inplace=True)
 
-# cols1 =["age.female."+str(age_group[0])+"-"+str(age_group[1]) for age_group in age_groups1[:-1]]+["age.female."+str(age_groups1[-1][0])+"+"]+\
-#        ["age.male."+str(age_group[0])+"-"+str(age_group[1]) for age_group in age_groups1[:-1]]+["age.male."+str(age_groups1[-1][0])+"+"]
-cols2 =["age.female."+str(age_group[0])+"-"+str(age_group[1]) for age_group in age_groups2[:-1]]+["age.female."+str(age_groups2[-1][0])+"+"]+\
-       ["age.male."+str(age_group[0])+"-"+str(age_group[1]) for age_group in age_groups2[:-1]]+["age.male."+str(age_groups2[-1][0])+"+"]
+for col in cols:
+    data_stats[col+".new"] = np.zeros_like(data_stats[col+".todate"])
+    data_stats[col+".new"][0] = data_stats[col + ".todate"][0]  # First acquired day
+    data_stats[col+".new"][1:] = np.diff(data_stats[col+".todate"])
 
-# data_stats1 = pd.read_csv(r"https://raw.githubusercontent.com/slo-covid-19/data/master/csv/stats.csv",
-#                           index_col="date",usecols=["date"]+[col+".todate" for col in cols1],parse_dates=["date"])[18:29]
-data_stats2 = pd.read_csv(r"https://raw.githubusercontent.com/slo-covid-19/data/master/csv/stats.csv",
-                          index_col="date",usecols=["date"]+[col+".todate" for col in cols2],parse_dates=["date"])[29:]
-
-# days1 = np.arange(0, len(data_stats1[cols1[0]+".todate"]))
-days2 = np.arange(0, len(data_stats2[cols2[0]+".todate"]))
-
-# for col in cols1:
-#     data_stats1[col+".new"] = np.zeros_like(data_stats1[col+".todate"])
-#     data_stats1[col+".new"][0] = data_stats1[col+".todate"][0]  # First acquired day
-#     data_stats1[col+".new"][1:] = np.diff(data_stats1[col+".todate"])
-for col in cols2:
-    data_stats2[col+".new"] = np.zeros_like(data_stats2[col+".todate"])
-    data_stats2[col+".new"][0] = data_stats2[col + ".todate"][0]  # First acquired day
-    data_stats2[col+".new"][1:] = np.diff(data_stats2[col+".todate"])
-
-# Interpolate between both data sets
-# fit_female = [0,0,0,2,5,5,4,3,2,2]
-# fit_male = [0,0,0,1,3,1,5,3,3,1]
-# for i, col in enumerate(cols2):
-#     if 'female' in col:
-#         data_stats2[col + ".new"][0] = fit_female[i]
-#     else:   # 'male'
-#         data_stats2[col + ".new"][0] = fit_male[i-len(age_groups2)]
+day_from_first_case = -8    # first confirmed case on day 1
+num_days = len(data_stats[cols[0]+".todate"])
 
 def random_ages(distribution, a=0, b=max_age, size=1):
     '''
@@ -108,29 +88,18 @@ def generate_sample():
 
     sample = {'age.female.new' : [], 'age.male.new' : []}
 
-    # for day in days1:
-    #     female_new_day = []
-    #     male_new_day = []
-    #     for age_group, col in zip(2*age_groups1, cols1):
-    #         if 'female' in col:
-    #             female_new_day += random_ages(male_age_demograpy_distribution, age_group[0], age_group[1]+1, int(data_stats1[col+".new"][day]))
-    #         else:   # male
-    #             male_new_day += random_ages(female_age_demograpy_distribution, age_group[0], age_group[1]+1, int(data_stats1[col+".new"][day]))
-    #     sample['age.female.new'].append(female_new_day)
-    #     sample['age.male.new'].append(male_new_day)
-    for day in days2:
+    for day in range(num_days):
         female_new_day = []
         male_new_day = []
-        for age_group, col in zip(2*age_groups2, cols2):
+        for age_group, col in zip(2*age_groups1, cols):
             if 'female' in col:
-                female_new_day += random_ages(male_age_demograpy_distribution, age_group[0], age_group[1]+1, int(data_stats2[col+".new"][day]))
+                female_new_day += random_ages(male_age_demograpy_distribution, age_group[0], age_group[1]+1, int(data_stats[col+".new"][day]))
             else:   # male
-                male_new_day += random_ages(female_age_demograpy_distribution, age_group[0], age_group[1]+1, int(data_stats2[col+".new"][day]))
+                male_new_day += random_ages(female_age_demograpy_distribution, age_group[0], age_group[1]+1, int(data_stats[col+".new"][day]))
         sample['age.female.new'].append(female_new_day)
         sample['age.male.new'].append(male_new_day)
 
-    # sample['date'] = data_stats1.index.union(data_stats2.index)
-    sample['date'] = data_stats2.index
+    sample['date'] = data_stats.index
     sample['day'] = day_from_first_case + np.arange(0,len(sample['date']))
     sample = pd.DataFrame(data=sample)
     sample = sample[['day', 'date', 'age.female.new', 'age.male.new']]
@@ -150,10 +119,10 @@ def groupby_age_groups(sample, age_groups):
                 new_day_groups += [np.sum((np.array(row) >= age_group[0]) & (np.array(row) <= age_group[1]))]
             sample['age.' + sex + '.new.groups'][i] = new_day_groups
 
-    return np.array(sample['age.female.new.groups'].tolist()), np.array(sample['age.male.new.groups'].tolist())
+    return np.array([sample['age.female.new.groups'].tolist(), np.array(sample['age.male.new.groups'].tolist())])
 
-
-def plot_age_groups(y, age_group_labels=False, date_labels=False, width=1., save=False, dpi=100):
+def plot_age_groups(y, age_group_labels=False, date_labels=False, linewidth=1., figsize=(8,6),
+                    title='Časovni potek novo okuženih po starostnih skupinah', filename=False, dpi=100):
     flag = True
     if age_group_labels is False:
         age_group_labels = range(y.shape[1])
@@ -171,9 +140,9 @@ def plot_age_groups(y, age_group_labels=False, date_labels=False, width=1., save
     x[:, np.arange(y.shape[1])] = np.transpose([range(y.shape[0])])
     x[np.arange(y.shape[0])] += np.linspace(0, 0.5, y.shape[1])
 
-    fig = plt.figure(figsize=(8, 6))
+    fig = plt.figure(figsize=figsize)
     for x_col, y_col, color, label in zip(x.transpose(), y.transpose(), colors[:y.shape[1]], age_group_labels):
-        plt.vlines(x_col, np.zeros_like(y_col), y_col, color=color, label=label, lw=width)
+        plt.vlines(x_col, np.zeros_like(y_col), y_col, color=color, label=label, lw=linewidth)
 
     xtick_labels = [str(date)[:10] for date in date_labels]
     plt.xticks(np.arange(0, y.shape[0]) + 0.25, xtick_labels, rotation=rot, size='small')
@@ -181,13 +150,13 @@ def plot_age_groups(y, age_group_labels=False, date_labels=False, width=1., save
     plt.ylim(ymin=0)
     plt.grid(axis='y', linestyle='--')
     if flag:
-        plt.legend(fontsize='small')
+        plt.legend(loc='upper left', fontsize='small')
 
-    plt.title('Časovni potek novo okuženih po starostnih skupinah', size=14)
+    plt.title(title, size=14)
     plt.ylabel('št. novo okuženih v starostni skupini', size=10)
 
-    if save:
-        fig.savefig('age_demography.png', dpi=dpi)
+    if filename:
+        fig.savefig(filename, dpi=dpi)
 
     return 0
 

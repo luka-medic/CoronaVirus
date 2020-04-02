@@ -1,0 +1,323 @@
+Case,Patient,Age,Gender,Nationality,Status,Infection Source,Country of Origin,Symptomatic ToConfirmation,Days ToRecover,Symptomatic At,Confirmed At,Recovered At,Displayed Symptoms?
+93,Female,30,Female,Taiwanese,In hospital,Imported case,Qatar,5,,13th Mar 2020,18th Mar 2020,,true
+94,male,30,Male,Taiwanese,In hospital,Imported case,Turkey,3,,15th Mar 2020,18th Mar 2020,,true
+95,Female,20,Female,Taiwanese,In hospital,Imported case,Indonesia,8,,10th Mar 2020,18th Mar 2020,,true
+122,Female,60,Female,Taiwanese,In hospital,Imported case,Turkey,2,,18th Mar 2020,20th Mar 2020,,true
+7,Female Luke,70,Female,Chinese,Recovered,Imported case,China,,,,28th Jan 2020,,true
+96,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,11,,7th Mar 2020,18th Mar 2020,,true
+99,Female,20,Female,Taiwanese,In hospital,Imported case,Philippines,10,,8th Mar 2020,18th Mar 2020,,true
+101,male,70,Female,Taiwanese,In hospital,Imported case,Egypt,1,,17th Mar 2020,18th Mar 2020,,true
+102,Female,50,Female,Taiwanese,In hospital,Imported case,United states,8,,11th Mar 2020,19th Mar 2020,,true
+105,male,20,Male,Taiwanese,In hospital,Imported case,France,2,,17th Mar 2020,19th Mar 2020,,true
+256,male,30,Male,Taiwanese,In hospital,Imported case,United states,5,,22nd Mar 2020,27th Mar 2020,,true
+275,Female,40,Female,Taiwanese,In hospital,Imported case,Australia,15,,13th Mar 2020,28th Mar 2020,,true
+107,French male,50,Male,French,In hospital,Imported case,France,2,,17th Mar 2020,19th Mar 2020,,true
+123,male,40,Male,Taiwanese,In hospital,Imported case,Unclear origin,2,,18th Mar 2020,20th Mar 2020,,true
+12,male,40,Male,Taiwanese,Recovered,Imported case,China,1,19,3rd Feb 2020,4th Feb 2020,23rd Feb 2020,true
+124,male,30,Male,Taiwanese,In hospital,Local transmission,Unclear origin,3,,17th Mar 2020,20th Mar 2020,,true
+11,Wuhan Taiwanese Businessmen,50,Male,Taiwanese,Recovered,Imported case,China,,23,,4th Feb 2020,27th Feb 2020,true
+257,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,17,,10th Mar 2020,27th Mar 2020,,true
+283,Female,20,Female,Taiwanese,In hospital,Imported case,United states,4,,24th Mar 2020,28th Mar 2020,,true
+130,Female,10,Female,Taiwanese,In hospital,Local transmission,Unclear origin,3,,17th Mar 2020,20th Mar 2020,,true
+212,Female,30,Female,Taiwanese,In hospital,Imported case,United states,5,,19th Mar 2020,24th Mar 2020,,true
+222,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,9,,16th Mar 2020,25th Mar 2020,,true
+20,male,50,Male,Taiwanese,In hospital,Local transmission,Unclear origin,,,,16th Feb 2020,,true
+223,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,8,,17th Mar 2020,25th Mar 2020,,true
+226,male,60,Male,Taiwanese,In hospital,Imported case,Egypt,4,,21st Mar 2020,25th Mar 2020,,true
+225,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,10,,15th Mar 2020,25th Mar 2020,,true
+224,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,7,,18th Mar 2020,25th Mar 2020,,true
+236,Female,20,Female,Taiwanese,In hospital,Imported case,Czech republic,3,,23rd Mar 2020,26th Mar 2020,,true
+239,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,15,,11th Mar 2020,26th Mar 2020,,true
+241,Female,40,Female,Taiwanese,In hospital,Imported case,United kingdom,3,,23rd Mar 2020,26th Mar 2020,,true
+247,Female,40,Female,Taiwanese,In hospital,Local transmission,Unclear origin,3,,23rd Mar 2020,26th Mar 2020,,true
+258,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,4,,23rd Mar 2020,27th Mar 2020,,true
+136,Female,30,Female,Taiwanese,In hospital,Imported case,Turkey,13,,8th Mar 2020,21st Mar 2020,,true
+139,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,4,,17th Mar 2020,21st Mar 2020,,true
+140,Female,50,Female,Taiwanese,In hospital,Imported case,Turkey,3,,18th Mar 2020,21st Mar 2020,,true
+98,Female,20,Female,Taiwanese,In hospital,Imported case,France,5,,13th Mar 2020,18th Mar 2020,,true
+137,Female,20,Female,Taiwanese,In hospital,Imported case,United states,7,,14th Mar 2020,21st Mar 2020,,true
+138,male,20,Male,Taiwanese,In hospital,Imported case,France,,,,21st Mar 2020,,true
+141,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,4,,17th Mar 2020,21st Mar 2020,,true
+142,Female,30,Female,Taiwanese,In hospital,Imported case,United kingdom,8,,13th Mar 2020,21st Mar 2020,,true
+67,Northern male,60,Male,Taiwanese,In hospital,Imported case,Turkey,2,,14th Mar 2020,16th Mar 2020,,true
+143,male,50,Male,Taiwanese,In hospital,Imported case,Czech republic,7,,14th Mar 2020,21st Mar 2020,,true
+144,Female,30,Female,Taiwanese,In hospital,Imported case,Czech republic,15,,6th Mar 2020,21st Mar 2020,,true
+145,Female,20,Female,Taiwanese,In hospital,Imported case,United states,5,,16th Mar 2020,21st Mar 2020,,true
+149,male,70,Male,Taiwanese,In hospital,Imported case,United kingdom,6,,15th Mar 2020,21st Mar 2020,,true
+150,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,2,,19th Mar 2020,21st Mar 2020,,true
+213,male,30,Male,Taiwanese,In hospital,Imported case,Spain,9,,15th Mar 2020,24th Mar 2020,,true
+146,male,50,Male,Taiwanese,In hospital,Imported case,South africa,3,,18th Mar 2020,21st Mar 2020,,true
+214,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,13,,11th Mar 2020,24th Mar 2020,,true
+147,Indonesian women,20,Female,Indonesian,In hospital,Imported case,Indonesia,4,,17th Mar 2020,21st Mar 2020,,true
+148,Female,20,Female,Taiwanese,In hospital,Imported case,United states,3,,18th Mar 2020,21st Mar 2020,,true
+151,male,30,Male,Taiwanese,In hospital,Local transmission,Netherlands,13,,8th Mar 2020,21st Mar 2020,,true
+152,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,7,,14th Mar 2020,21st Mar 2020,,true
+153,Female,20,Female,Taiwanese,In hospital,Imported case,France,3,,18th Mar 2020,21st Mar 2020,,true
+215,Female,10,Female,Taiwanese,In hospital,Imported case,United states,1,,23rd Mar 2020,24th Mar 2020,,true
+227,Female,30,Female,Taiwanese,In hospital,Imported case,United kingdom,10,,15th Mar 2020,25th Mar 2020,,true
+40,Northern women,70,Female,Taiwanese,In hospital,Imported case,Unclear origin,,,,1st Mar 2020,,true
+81,Female,50,Female,Taiwanese,In hospital,Imported case,Turkey,,,,18th Mar 2020,,true
+216,male,30,Male,French,In hospital,Local transmission,Unclear origin,,,,24th Mar 2020,,true
+15,Northern women,50,Female,Taiwanese,In hospital,Imported case,Unclear origin,9,,28th Jan 2020,6th Feb 2020,,true
+83,Female	,40,Female,Taiwanese,In hospital,Imported case,Turkey,,,,18th Mar 2020,,true
+228,Female,20,Female,Taiwanese,In hospital,Imported case,Netherlands,4,,21st Mar 2020,25th Mar 2020,,true
+109,male,80,Male,Taiwanese,In hospital,Imported case,Egypt,13,,7th Mar 2020,20th Mar 2020,,true
+229,Male american,30,Male,American,In hospital,Imported case,United states,5,,20th Mar 2020,25th Mar 2020,,true
+230,Female,10,Female,Taiwanese,In hospital,Imported case,United states,3,,22nd Mar 2020,25th Mar 2020,,true
+111,Female,50,Female,Taiwanese,In hospital,Imported case,Egypt,5,,15th Mar 2020,20th Mar 2020,,true
+82,Female,20,Female,Taiwanese,In hospital,Imported case,Turkey,7,,11th Mar 2020,18th Mar 2020,,true
+92,male,20,Male,Taiwanese,In hospital,Local transmission,Unclear origin,,,,18th Mar 2020,,true
+114,male,10,Male,Taiwanese,In hospital,Imported case,Unclear origin,3,,17th Mar 2020,20th Mar 2020,,true
+231,Female,10,Female,Taiwanese,In hospital,Imported case,United states,3,,22nd Mar 2020,25th Mar 2020,,true
+232,Female,20,Female,Taiwanese,In hospital,Imported case,Unclear origin,3,,22nd Mar 2020,25th Mar 2020,,true
+240,Female,30,Female,Taiwanese,In hospital,Imported case,United states,13,,13th Mar 2020,26th Mar 2020,,true
+242,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,9,,17th Mar 2020,26th Mar 2020,,true
+86,male,20,Male,Taiwanese,In hospital,Imported case,United states,6,,12th Mar 2020,18th Mar 2020,,true
+88,Female,20,Female,Taiwanese,In hospital,Imported case,Spain,12,,6th Mar 2020,18th Mar 2020,,true
+233,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,2,,23rd Mar 2020,25th Mar 2020,,true
+234,Female,20,Female,Taiwanese,In hospital,Imported case,France,7,,18th Mar 2020,25th Mar 2020,,true
+260,male,40,Male,Taiwanese,In hospital,Imported case,United states,10,,17th Mar 2020,27th Mar 2020,,true
+41,Female,,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,2nd Mar 2020,,true
+45,Female,50,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,6th Mar 2020,,true
+235,male,20,Male,Taiwanese,In hospital,Imported case,Unclear origin,2,,23rd Mar 2020,25th Mar 2020,,true
+243,Female,20,Female,Taiwanese,In hospital,Imported case,United states,10,,16th Mar 2020,26th Mar 2020,,true
+249,male,60,Male,Taiwanese,In hospital,Imported case,Unclear origin,10,,16th Mar 2020,26th Mar 2020,,true
+250,Female,30,Female,Taiwanese,In hospital,Imported case,Monaco,6,,20th Mar 2020,26th Mar 2020,,true
+252,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,7,,19th Mar 2020,26th Mar 2020,,true
+121,Female,20,Female,Taiwanese,In hospital,Imported case,United states,2,,18th Mar 2020,20th Mar 2020,,true
+39,Northern women,60,Female,Taiwanese,In hospital,Imported case,Egypt,9,,20th Feb 2020,29th Feb 2020,,true
+244,male,30,Male,Taiwanese,In hospital,Imported case,New zealand,10,,16th Mar 2020,26th Mar 2020,,true
+157,male,20,Male,Taiwanese,In hospital,Imported case,New zealand,4,,18th Mar 2020,22nd Mar 2020,,true
+158,Female,10,Female,Taiwanese,In hospital,Imported case,United states,4,,18th Mar 2020,22nd Mar 2020,,true
+163,Female,20,Female,Taiwanese,In hospital,Imported case,France,5,,17th Mar 2020,22nd Mar 2020,,true
+165,Female,20,Female,Taiwanese,In hospital,Imported case,Italy,15,,7th Mar 2020,22nd Mar 2020,,true
+173,Female,30,Female,Taiwanese,In hospital,Imported case,France,5,,18th Mar 2020,23rd Mar 2020,,true
+154,male,30,Male,Taiwanese,In hospital,Imported case,United states,6,,16th Mar 2020,22nd Mar 2020,,true
+155,male,70,Male,Taiwanese,In hospital,Imported case,Denmark,2,,20th Mar 2020,22nd Mar 2020,,true
+164,Female,,Female,Taiwanese,In hospital,Imported case,Philippines,9,,13th Mar 2020,22nd Mar 2020,,true
+167,male,10,Male,Taiwanese,In hospital,Imported case,United kingdom,3,,19th Mar 2020,22nd Mar 2020,,true
+169,Female,30,Female,Taiwanese,In hospital,Local transmission,Unclear origin,5,,17th Mar 2020,22nd Mar 2020,,true
+170,male,60,Male,Taiwanese,Deceased,Imported case,Spain,3,,20th Mar 2020,23rd Mar 2020,,true
+172,male,30,Male,Taiwanese,In hospital,Imported case,France,7,,16th Mar 2020,23rd Mar 2020,,true
+156,Female,20,Female,Taiwanese,In hospital,Local transmission,Unclear origin,9,,12th Mar 2020,21st Mar 2020,,true
+160,male,50,Male,Taiwanese,In hospital,Imported case,United states,8,,14th Mar 2020,22nd Mar 2020,,true
+174,male,30,Male,Taiwanese,In hospital,Imported case,Netherlands,16,,7th Mar 2020,23rd Mar 2020,,true
+57,Northern women,70,Female,Taiwanese,In hospital,Imported case,Turkey,2,,13th Mar 2020,15th Mar 2020,,true
+159,male,60,Male,Taiwanese,In hospital,Imported case,United states,1,,18th Mar 2020,19th Mar 2020,,true
+161,male,60,Male,Taiwanese,In hospital,Imported case,Egypt,2,,20th Mar 2020,22nd Mar 2020,,true
+168,male,30,Male,Taiwanese,In hospital,Local transmission,United kingdom,5,,17th Mar 2020,22nd Mar 2020,,true
+245,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,8,,18th Mar 2020,26th Mar 2020,,true
+128,Female,20,Female,Taiwanese,In hospital,Imported case,Unclear origin,15,,5th Mar 2020,20th Mar 2020,,true
+162,Female,60,Female,Taiwanese,In hospital,Imported case,Egypt,2,,20th Mar 2020,22nd Mar 2020,,true
+166,male,20,Male,Taiwanese,In hospital,Imported case,Germany,5,,17th Mar 2020,22nd Mar 2020,,true
+171,male,30,Male,Taiwanese,In hospital,Imported case,Netherlands,16,,7th Mar 2020,23rd Mar 2020,,true
+135,Female,20,Female,Taiwanese,In hospital,Imported case,United states,2,,18th Mar 2020,20th Mar 2020,,true
+175,male,4,Male,Taiwanese,In hospital,Imported case,Netherlands,13,,10th Mar 2020,23rd Mar 2020,,true
+176,male,20,Male,Taiwanese,In hospital,Imported case,Switzerland,4,,19th Mar 2020,23rd Mar 2020,,true
+177,male,40,Male,Taiwanese,In hospital,Imported case,United states,4,,19th Mar 2020,23rd Mar 2020,,true
+183,Female,70,Female,Taiwanese,In hospital,Imported case,Unclear origin,5,,18th Mar 2020,23rd Mar 2020,,true
+184,Female,30,Female,Taiwanese,In hospital,Imported case,United states,4,,19th Mar 2020,23rd Mar 2020,,true
+186,Female,30,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,23rd Mar 2020,,true
+191,male,20,Male,Taiwanese,In hospital,Imported case,United states,12,,11th Mar 2020,23rd Mar 2020,,true
+195,Female,20,Female,Taiwanese,In hospital,Imported case,United states,3,,20th Mar 2020,23rd Mar 2020,,true
+3,Taiwanese,50,Male,Taiwanese,In hospital,Imported case,China,3,,21st Jan 2020,24th Jan 2020,,true
+10,Central male,40,Male,Taiwanese,Recovered,Imported case,China,10,13,21st Jan 2020,31st Jan 2020,13th Feb 2020,true
+17,male,20,Male,Taiwanese,Recovered,Imported case,Italy,12,19,27th Jan 2020,8th Feb 2020,27th Feb 2020,true
+26,Female,40,Female,Taiwanese,Recovered,Local transmission,Unclear origin,,,,21st Feb 2020,,true
+97,male,20,Male,Taiwanese,In hospital,Imported case,Switzerland,4,,14th Mar 2020,18th Mar 2020,,true
+33,Northern male,30,Male,Taiwanese,In hospital,Imported case,Japan,3,,25th Feb 2020,28th Feb 2020,,true
+42,Female,50,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,3rd Mar 2020,,true
+18,male,20,Male,Taiwanese,Recovered,Imported case,Unclear origin,,,,9th Feb 2020,,true
+13,Female,20,Female,Taiwanese,Recovered,Imported case,China,3,,1st Feb 2020,4th Feb 2020,,true
+60,Chubu Women,20,Female,Taiwanese,In hospital,Imported case,Unclear origin,2,,14th Mar 2020,16th Mar 2020,,true
+125,Female,20,Female,Taiwanese,In hospital,Imported case,Unclear origin,13,,7th Mar 2020,20th Mar 2020,,true
+16,Female,40,Female,Taiwanese,Recovered,Imported case,China,5,,1st Feb 2020,6th Feb 2020,,true
+126,male,30,Male,Taiwanese,In hospital,Imported case,Canada,4,,16th Mar 2020,20th Mar 2020,,true
+129,male,40,Male,Taiwanese,In hospital,Imported case,United states,4,,16th Mar 2020,20th Mar 2020,,true
+127,male,20,Male,Taiwanese,In hospital,Imported case,Spain,8,,12th Mar 2020,20th Mar 2020,,true
+50,Central American Male,50,Male,American,In hospital,Imported case,United states,9,,4th Mar 2020,13th Mar 2020,,true
+100,Female,20,Female,Taiwanese,In hospital,Local transmission,Unclear origin,6,,12th Mar 2020,18th Mar 2020,,true
+131,Female,40,Female,Taiwanese,In hospital,Imported case,Unclear origin,6,,14th Mar 2020,20th Mar 2020,,true
+132,Female,20,Female,Taiwanese,In hospital,Imported case,Philippines,8,,12th Mar 2020,20th Mar 2020,,true
+133,Female,10,Female,Taiwanese,In hospital,Imported case,United kingdom,2,,18th Mar 2020,20th Mar 2020,,true
+134,Female,30,Female,Taiwanese,In hospital,Local transmission,Unclear origin,3,,17th Mar 2020,20th Mar 2020,,true
+58,Northern women,20,Female,Taiwanese,In hospital,Imported case,Spain,3,,12th Mar 2020,15th Mar 2020,,true
+64,Northern male,20,Male,Taiwanese,In hospital,Imported case,Spain,2,,14th Mar 2020,16th Mar 2020,,true
+19,male,60,Male,Taiwanese,Deceased,Local transmission,Unclear origin,12,,3rd Feb 2020,15th Feb 2020,,true
+62,Northern women,60,Female,Taiwanese,In hospital,Imported case,Philippines,4,,12th Mar 2020,16th Mar 2020,,true
+61,Southern women,50,Female,Taiwanese,In hospital,Imported case,Unclear origin,2,,14th Mar 2020,16th Mar 2020,,true
+63,Northern male,50,Male,Taiwanese,In hospital,Imported case,Egypt,3,,13th Mar 2020,16th Mar 2020,,true
+21,Female	,80,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,17th Feb 2020,,true
+28,Northern male,50,Male,Taiwanese,In hospital,Local transmission,Unclear origin,,,,23rd Feb 2020,,true
+34,Female,50,Female,Taiwanese,Deceased,Local transmission,Unclear origin,7,,21st Feb 2020,28th Feb 2020,,true
+22,male,30,Male,Taiwanese,In hospital,Local transmission,Unclear origin,,,,17th Feb 2020,,true
+23,Female,60,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,19th Feb 2020,,true
+27,Northern male,80,Male,Taiwanese,Deceased,Local transmission,Unclear origin,,,,23rd Feb 2020,,true
+65,Southern women,50,Female,Taiwanese,In hospital,Imported case,Turkey,2,,14th Mar 2020,16th Mar 2020,,true
+66,Southern women,50,Female,Taiwanese,In hospital,Imported case,Turkey,2,,14th Mar 2020,16th Mar 2020,,true
+246,male,60,Male,Taiwanese,In hospital,Local transmission,Unclear origin,,,,26th Mar 2020,,true
+25,Female,20,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,21st Feb 2020,,true
+68,Female,,Female,Taiwanese,In hospital,Imported case,Turkey,,,,17th Mar 2020,,true
+69,Female,,Female,Taiwanese,In hospital,Imported case,Turkey,,,,17th Mar 2020,,true
+71,Northern male,60,Male,Taiwanese,In hospital,Imported case,Egypt,4,,13th Mar 2020,17th Mar 2020,,true
+72,Southern women,70,Female,Taiwanese,In hospital,Imported case,Unclear origin,2,,15th Mar 2020,17th Mar 2020,,true
+76,Northern women,30,Female,Taiwanese,In hospital,Imported case,France,5,,12th Mar 2020,17th Mar 2020,,true
+4,Northern women,50,Female,Taiwanese,Recovered,Imported case,China,4,28,22nd Jan 2020,26th Jan 2020,23rd Feb 2020,true
+70,male,,Male,Taiwanese,In hospital,Imported case,Turkey,,,,17th Mar 2020,,true
+248,male,20,Male,Taiwanese,In hospital,Imported case,Spain,,,,26th Mar 2020,,true
+251,male,60,Male,Taiwanese,In hospital,Imported case,Unclear origin,3,,23rd Mar 2020,26th Mar 2020,,true
+24,Northern women,60,Female,Taiwanese,In hospital,Local transmission,Unclear origin,28,,22nd Jan 2020,19th Feb 2020,,true
+52,Northern male,30,Male,Taiwanese,In hospital,Imported case,Unclear origin,2,,12th Mar 2020,14th Mar 2020,,true
+54,Northern male,30,Male,Taiwanese,In hospital,Imported case,Unclear origin,3,,12th Mar 2020,15th Mar 2020,,true
+14,Northern male,50,Male,Taiwanese,In hospital,Imported case,Unclear origin,11,,26th Jan 2020,6th Feb 2020,,true
+53,Northern male,30,Male,Taiwanese,In hospital,Imported case,Germany,3,,11th Mar 2020,14th Mar 2020,,true
+59,Northern male,10,Male,Taiwanese,In hospital,Imported case,Greece,3,,12th Mar 2020,15th Mar 2020,,true
+73,male,,Male,Taiwanese,In hospital,Imported case,Turkey,,,,17th Mar 2020,,true
+115,Female,20,Female,Taiwanese,In hospital,Imported case,Poland,3,,17th Mar 2020,20th Mar 2020,,true
+74,Southern male,30,Male,Taiwanese,In hospital,Imported case,Iceland,3,,14th Mar 2020,17th Mar 2020,,true
+110,Female,30,Female,Taiwanese,In hospital,Imported case,Unclear origin,4,,16th Mar 2020,20th Mar 2020,,true
+113,male,30,Male,Taiwanese,In hospital,Imported case,Unclear origin,3,,17th Mar 2020,20th Mar 2020,,true
+116,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,8,,12th Mar 2020,20th Mar 2020,,true
+117,male,40,Male,Taiwanese,In hospital,Imported case,Unclear origin,6,,14th Mar 2020,20th Mar 2020,,true
+112,Female,20,Female,Taiwanese,In hospital,Imported case,France,7,,13th Mar 2020,20th Mar 2020,,true
+119,male,60,Male,Taiwanese,In hospital,Imported case,United states,5,,15th Mar 2020,20th Mar 2020,,true
+120,Female,20,Female,Taiwanese,In hospital,Imported case,France,6,,14th Mar 2020,20th Mar 2020,,true
+6,Female Luke,70,Female,Chinese,In hospital,Imported case,China,3,,25th Jan 2020,28th Jan 2020,,true
+79,Female,40,Female,Taiwanese,In hospital,Imported case,United kingdom,4,,14th Mar 2020,18th Mar 2020,,true
+8,Central male,50,Male,Taiwanese,Recovered,Local transmission,Unclear origin,2,30,26th Jan 2020,28th Jan 2020,27th Feb 2020,true
+264,Female,50,Female,Taiwanese,In hospital,Imported case,United kingdom,4,,23rd Mar 2020,27th Mar 2020,,true
+266,male,30,Male,Taiwanese,In hospital,Imported case,United kingdom,3,,24th Mar 2020,27th Mar 2020,,true
+87,male,30,Male,Taiwanese,In hospital,Imported case,Unclear origin,7,,11th Mar 2020,18th Mar 2020,,true
+91,male,30,Male,Taiwanese,In hospital,Imported case,Unclear origin,10,,8th Mar 2020,18th Mar 2020,,true
+89,Female,30,Female,Taiwanese,In hospital,Imported case,United states,4,,14th Mar 2020,18th Mar 2020,,true
+44,Northern male,30,Male,Taiwanese,In hospital,Imported case,Philippines,,,,5th Mar 2020,,true
+90,male,30,Male,Taiwanese,In hospital,Imported case,Spain,11,,7th Mar 2020,18th Mar 2020,,true
+30,Northern women,70,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,24th Feb 2020,,true
+9,Chubu Women,40,Female,Taiwanese,Recovered,Local transmission,Unclear origin,3,33,27th Jan 2020,30th Jan 2020,3rd Mar 2020,true
+29,Northern male,40,Male,Taiwanese,Recovered,Local transmission,Unclear origin,,,,24th Feb 2020,,true
+31,Northern boy,11,Male,Taiwanese,In hospital,Local transmission,Unclear origin,,,,25th Feb 2020,,true
+32,Female foreign caregiver,30,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,26th Feb 2020,,true
+35,Cleaning staff	,,Female,Taiwanese,In hospital,Local transmission,Unclear origin,10,,19th Feb 2020,29th Feb 2020,,true
+36,Nursing staff,,Female,Taiwanese,In hospital,Local transmission,Unclear origin,11,,18th Feb 2020,29th Feb 2020,,true
+43,Northern women,50,Female,Taiwanese,In hospital,Local transmission,Unclear origin,,,,5th Mar 2020,,true
+118,Female,30,Female,Taiwanese,In hospital,Imported case,United states,,,,20th Mar 2020,,true
+75,Southern male,20,Male,Taiwanese,In hospital,Imported case,Germany,9,,8th Mar 2020,17th Mar 2020,,true
+37,Nursing staff,,Female,Taiwanese,In hospital,Local transmission,Unclear origin,4,,25th Feb 2020,29th Feb 2020,,true
+49,Northern women,40,Female,Taiwanese,In hospital,Imported case,Unclear origin,4,,8th Mar 2020,12th Mar 2020,,true
+5,Chubu Women,50,Female,Taiwanese,Recovered,Imported case,China,2,27,25th Jan 2020,27th Jan 2020,23rd Feb 2020,true
+47,Southern male,30,Male,Taiwanese,In hospital,Imported case,Netherlands,1,,9th Mar 2020,10th Mar 2020,,true
+48,Northern women	,30,Female,Taiwanese,In hospital,Imported case,United kingdom,2,,9th Mar 2020,11th Mar 2020,,true
+55,Northern male,50,Male,Taiwanese,In hospital,Imported case,Egypt,3,,12th Mar 2020,15th Mar 2020,,true
+56,Northern male,40,Male,Taiwanese,In hospital,Imported case,Turkey,2,,13th Mar 2020,15th Mar 2020,,true
+38,Nursing staff,,Female,Taiwanese,In hospital,Local transmission,Unclear origin,4,,25th Feb 2020,29th Feb 2020,,true
+46,Northern male,20,Male,Taiwanese,In hospital,Local transmission,Unclear origin,4,,6th Mar 2020,10th Mar 2020,,true
+51,Dutch male,30,Male,Dutch,In hospital,Imported case,Unclear origin,3,,11th Mar 2020,14th Mar 2020,,true
+104,Female,40,Female,Taiwanese,In hospital,Imported case,Unclear origin,3,,16th Mar 2020,19th Mar 2020,,true
+77,Northern women,60,Female,Taiwanese,In hospital,Imported case,United states,7,,10th Mar 2020,17th Mar 2020,,true
+103,male,10,Male,Taiwanese,In hospital,Local transmission,Unclear origin,4,,15th Mar 2020,19th Mar 2020,,true
+78,male,,Male,Taiwanese,In hospital,Imported case,Germany,3,,15th Mar 2020,18th Mar 2020,,true
+106,male,20,Male,Taiwanese,In hospital,Imported case,Spain,7,,12th Mar 2020,19th Mar 2020,,true
+80,Female,20,Female,Taiwanese,In hospital,Imported case,Spain,2,,16th Mar 2020,18th Mar 2020,,true
+108,male,40,Male,Taiwanese,Deceased,Imported case,Unclear origin,2,,17th Mar 2020,19th Mar 2020,,true
+84,French man,20,Male,French,In hospital,Imported case,France,,,,18th Mar 2020,,true
+2,Female Luke,50,Male,Chinese,In hospital,Imported case,China,1,,23rd Jan 2020,24th Jan 2020,,true
+85,Female,30,Female,Taiwanese,In hospital,Imported case,United states,4,,14th Mar 2020,18th Mar 2020,,true
+267,male,50,Male,Taiwanese,In hospital,Imported case,United kingdom,7,,20th Mar 2020,27th Mar 2020,,true
+1,Female Taiwan Businessmen,50,Female,Taiwanese,Recovered,Imported case,China,,16,,21st Jan 2020,6th Feb 2020,true
+178,Female,30,Female,Taiwanese,In hospital,Imported case,Netherlands,13,,10th Mar 2020,23rd Mar 2020,,true
+181,Female,30,Female,Taiwanese,In hospital,Imported case,Unclear origin,22,,1st Mar 2020,23rd Mar 2020,,true
+187,Female,30,Female,Taiwanese,In hospital,Imported case,United kingdom,3,,20th Mar 2020,23rd Mar 2020,,true
+188,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,9,,14th Mar 2020,23rd Mar 2020,,true
+179,Female,20,Female,Taiwanese,In hospital,Imported case,United states,3,,20th Mar 2020,23rd Mar 2020,,true
+189,Female,50,Female,Taiwanese,In hospital,Imported case,Spain,2,,21st Mar 2020,23rd Mar 2020,,true
+190,Female,20,Female,Taiwanese,In hospital,Imported case,United states,4,,19th Mar 2020,23rd Mar 2020,,true
+180,male,20,Male,Taiwanese,In hospital,Imported case,Czech republic,8,,15th Mar 2020,23rd Mar 2020,,true
+192,Female,20,Female,Taiwanese,In hospital,Imported case,United states,30,,22nd Feb 2020,23rd Mar 2020,,true
+193,male,30,Male,Taiwanese,In hospital,Imported case,United kingdom,7,,16th Mar 2020,23rd Mar 2020,,true
+182,male,40,Male,Taiwanese,In hospital,Imported case,United states,3,,20th Mar 2020,23rd Mar 2020,,true
+185,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,9,,14th Mar 2020,23rd Mar 2020,,true
+194,Female,20,Female,Taiwanese,In hospital,Imported case,United states,7,,16th Mar 2020,23rd Mar 2020,,true
+196,male,50,Male,American,In hospital,Imported case,United states,4,,20th Mar 2020,24th Mar 2020,,true
+203,male,30,Male,Taiwanese,In hospital,Imported case,France,8,,16th Mar 2020,24th Mar 2020,,true
+204,Female,40,Female,Taiwanese,In hospital,Imported case,United kingdom,8,,16th Mar 2020,24th Mar 2020,,true
+208,Female,30,Female,Taiwanese,In hospital,Imported case,United kingdom,15,,9th Mar 2020,24th Mar 2020,,true
+210,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,3,,21st Mar 2020,24th Mar 2020,,true
+197,male,40,Male,Taiwanese,In hospital,Imported case,United states,5,,19th Mar 2020,24th Mar 2020,,true
+199,male,20,Male,Taiwanese,In hospital,Imported case,Unclear origin,4,,20th Mar 2020,24th Mar 2020,,true
+202,Female,40,Female,Taiwanese,In hospital,Imported case,United states,5,,19th Mar 2020,24th Mar 2020,,true
+209,Female,60,Female,Taiwanese,In hospital,Imported case,United states,3,,21st Mar 2020,24th Mar 2020,,true
+198,Female,20,Female,Taiwanese,In hospital,Imported case,Ireland,3,,21st Mar 2020,24th Mar 2020,,true
+201,Female,30,Female,Taiwanese,In hospital,Imported case,Ireland,5,,19th Mar 2020,24th Mar 2020,,true
+200,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,5,,19th Mar 2020,24th Mar 2020,,true
+205,Female,4,Female,Taiwanese,In hospital,Imported case,Turkey,3,,21st Mar 2020,24th Mar 2020,,true
+206,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,8,,16th Mar 2020,24th Mar 2020,,true
+207,Female,20,Female,Taiwanese,In hospital,Imported case,United states,8,,16th Mar 2020,24th Mar 2020,,true
+211,male,40,Male,Indonesian,In hospital,Imported case,Indonesia,2,,22nd Mar 2020,24th Mar 2020,,true
+217,male,10,Male,Taiwanese,In hospital,Imported case,United kingdom,5,,20th Mar 2020,25th Mar 2020,,true
+218,Female,20,Female,Taiwanese,In hospital,Imported case,United states,8,,17th Mar 2020,25th Mar 2020,,true
+219,male,20,Male,Taiwanese,In hospital,Imported case,United states,3,,22nd Mar 2020,25th Mar 2020,,true
+220,Female,30,Female,Taiwanese,In hospital,Imported case,United kingdom,6,,19th Mar 2020,25th Mar 2020,,true
+221,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,7,,18th Mar 2020,25th Mar 2020,,true
+237,male,50,Male,Taiwanese,In hospital,Imported case,Unclear origin,4,,21st Mar 2020,25th Mar 2020,,true
+238,male,30,Male,Taiwanese,In hospital,Imported case,United kingdom,14,,12th Mar 2020,26th Mar 2020,,true
+270,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,3,,25th Mar 2020,28th Mar 2020,,true
+272,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,9,,19th Mar 2020,28th Mar 2020,,true
+273,Female,60,Female,Taiwanese,In hospital,Imported case,Spain,8,,20th Mar 2020,28th Mar 2020,,true
+276,Female,10,Female,Taiwanese,In hospital,Imported case,Spain,10,,18th Mar 2020,28th Mar 2020,,true
+277,male,20,Male,Taiwanese,In hospital,Imported case,Philippines,27,,1st Mar 2020,28th Mar 2020,,true
+281,Female,10,Female,Taiwanese,In hospital,Imported case,United states,8,,20th Mar 2020,28th Mar 2020,,true
+282,Female,20,Female,Taiwanese,In hospital,Imported case,Ireland,4,,24th Mar 2020,28th Mar 2020,,true
+254,male,20,Male,Taiwanese,In hospital,Imported case,United states,7,,20th Mar 2020,27th Mar 2020,,true
+279,Female,10,Female,Taiwanese,In hospital,Imported case,United states,8,,20th Mar 2020,28th Mar 2020,,true
+280,male,20,Male,Taiwanese,In hospital,Imported case,Canada,9,,19th Mar 2020,28th Mar 2020,,true
+255,male,30,Male,Taiwanese,In hospital,Imported case,United states,19,,8th Mar 2020,27th Mar 2020,,true
+253,Female,50,Female,Taiwanese,In hospital,Imported case,United states,13,,14th Mar 2020,27th Mar 2020,,true
+259,Female,60,Female,Taiwanese,In hospital,Imported case,Unclear origin,2,,25th Mar 2020,27th Mar 2020,,true
+261,Female,60,Female,Taiwanese,In hospital,Imported case,Philippines,3,,24th Mar 2020,27th Mar 2020,,true
+262,male,30,Male,Taiwanese,In hospital,Imported case,United kingdom,11,,16th Mar 2020,27th Mar 2020,,true
+263,male,30,Male,Taiwanese,In hospital,Imported case,Austria,7,,20th Mar 2020,27th Mar 2020,,true
+265,Female,10,Female,Taiwanese,In hospital,Imported case,United states,15,,12th Mar 2020,27th Mar 2020,,true
+271,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,16,,12th Mar 2020,28th Mar 2020,,true
+274,male,30,Male,Taiwanese,In hospital,Imported case,Unclear origin,10,,18th Mar 2020,28th Mar 2020,,true
+278,male,50,Male,Taiwanese,In hospital,Imported case,Czech republic,5,,23rd Mar 2020,28th Mar 2020,,true
+268,male,50,Male,Taiwanese,In hospital,Local transmission,Unclear origin,29,,28th Feb 2020,28th Mar 2020,,true
+269,male,30,Male,Taiwanese,In hospital,Local transmission,Unclear origin,5,,23rd Mar 2020,28th Mar 2020,,true
+284,male,20,Male,Taiwanese,In hospital,Imported case,Philippines,4,,25th Mar 2020,29th Mar 2020,,true
+285,male,30,Male,Taiwanese,In hospital,Imported case,United states,10,,19th Mar 2020,29th Mar 2020,,true
+286,Female,30,Female,Taiwanese,In hospital,Imported case,Turkey,6,,23rd Mar 2020,29th Mar 2020,,true
+287,male,30,Male,Taiwanese,In hospital,Imported case,United kingdom,10,,19th Mar 2020,29th Mar 2020,,true
+288,male,20,Male,Taiwanese,In hospital,Imported case,Morocco,6,,23rd Mar 2020,29th Mar 2020,,true
+289,Female,40,Female,Taiwanese,In hospital,Local transmission,Unclear origin,7,,22nd Mar 2020,29th Mar 2020,,true
+290,Female,50,Female,Taiwanese,In hospital,Imported case,India,7,,22nd Mar 2020,29th Mar 2020,,true
+291,male,60,Male,Taiwanese,In hospital,Imported case,India,7,,22nd Mar 2020,29th Mar 2020,,true
+292,Female,10,Female,Taiwanese,In hospital,Imported case,United states,7,,22nd Mar 2020,29th Mar 2020,,true
+293,male,40,Male,Taiwanese,In hospital,Imported case,Unclear origin,6,,23rd Mar 2020,29th Mar 2020,,true
+294,Female,20,Female,Taiwanese,In hospital,Imported case,Switzerland,4,,25th Mar 2020,29th Mar 2020,,true
+295,male,60,Male,Taiwanese,In hospital,Imported case,United kingdom,7,,22nd Mar 2020,29th Mar 2020,,true
+296,Female,20,Female,Taiwanese,In hospital,Imported case,Unclear origin,43,,15th Feb 2020,29th Mar 2020,,true
+297,male,10,Male,Taiwanese,In hospital,Imported case,France,6,,23rd Mar 2020,29th Mar 2020,,true
+298,male,30,Male,Taiwanese,In hospital,Imported case,France,11,,18th Mar 2020,29th Mar 2020,,true
+299,male,9,Male,Taiwanese,In hospital,Local transmission,Unclear origin,4,,26th Mar 2020,30th Mar 2020,,true
+300,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,5,,25th Mar 2020,30th Mar 2020,,true
+301,male,30,Male,Taiwanese,In hospital,Imported case,United states,24,,6th Mar 2020,30th Mar 2020,,true
+302,male,30,Male,Taiwanese,In hospital,Imported case,United kingdom,,,,30th Mar 2020,,true
+303,male,50,Male,Taiwanese,In hospital,Imported case,United states,10,,20th Mar 2020,30th Mar 2020,,true
+304,Female,40,Female,Taiwanese,In hospital,Imported case,United states,4,,26th Mar 2020,30th Mar 2020,,true
+305,Female,70,Female,Taiwanese,In hospital,Imported case,Philippines,6,,24th Mar 2020,30th Mar 2020,,true
+306,male,30,Male,Taiwanese,In hospital,Imported case,Egypt,8,,20th Mar 2020,28th Mar 2020,,true
+307,male,70,Male,Taiwanese,In hospital,Local transmission,Unclear origin,6,,25th Mar 2020,31st Mar 2020,,true
+308,male,40,Male,Taiwanese,In hospital,Imported case,Unclear origin,9,,22nd Mar 2020,31st Mar 2020,,true
+309,Female,30,Female,Taiwanese,In hospital,Imported case,United kingdom,16,,15th Mar 2020,31st Mar 2020,,true
+310,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,16,,15th Mar 2020,31st Mar 2020,,true
+311,Female,30,Female,Taiwanese,In hospital,Imported case,Unclear origin,7,,24th Mar 2020,31st Mar 2020,,true
+312,Female,30,Female,Taiwanese,In hospital,Imported case,United kingdom,9,,22nd Mar 2020,31st Mar 2020,,true
+313,Female,40,Female,Taiwanese,In hospital,Imported case,United kingdom,9,,22nd Mar 2020,31st Mar 2020,,true
+314,male,20,Male,Taiwanese,In hospital,Imported case,United states,19,,12th Mar 2020,31st Mar 2020,,true
+315,Female,20,Female,Taiwanese,In hospital,Imported case,United kingdom,6,,25th Mar 2020,31st Mar 2020,,true
+316,male,20,Male,Taiwanese,In hospital,Imported case,United kingdom,3,,28th Mar 2020,31st Mar 2020,,true
+317,male,60,Male,Taiwanese,In hospital,Imported case,United states,5,,26th Mar 2020,31st Mar 2020,,true
+318,male,20,Male,Taiwanese,In hospital,Imported case,Unclear origin,4,,27th Mar 2020,31st Mar 2020,,true
+319,male,30,Male,Taiwanese,In hospital,Imported case,United kingdom,30,,1st Mar 2020,31st Mar 2020,,true
+320,Female,30,Female,Taiwanese,In hospital,Imported case,United kingdom,14,,17th Mar 2020,31st Mar 2020,,true
+321,male,20,Male,Taiwanese,In hospital,Imported case,Switzerland,,,,31st Mar 2020,,true
+322,male,20,Male,Taiwanese,In hospital,Local transmission,Unclear origin,5,,26th Mar 2020,31st Mar 2020,,true
