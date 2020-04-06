@@ -121,7 +121,7 @@ def groupby_age_groups(sample, age_groups):
 
     return np.array([sample['age.female.new.groups'].tolist(), np.array(sample['age.male.new.groups'].tolist())])
 
-def plot_age_groups(y, age_group_labels=False, date_labels=False, linewidth=1., figsize=(8,6),
+def plot_age_groups(y, age_group_labels=False, date_labels=False, cumulative=False, invert=False, figsize=(8,6),
                     title='Časovni potek novo okuženih po starostnih skupinah', filename=False, dpi=100):
     flag = True
     if age_group_labels is False:
@@ -138,19 +138,39 @@ def plot_age_groups(y, age_group_labels=False, date_labels=False, linewidth=1., 
 
     x = np.zeros_like(y, dtype=np.float)
     x[:, np.arange(y.shape[1])] = np.transpose([range(y.shape[0])])
-    x[np.arange(y.shape[0])] += np.linspace(0, 0.5, y.shape[1])
+    # x[np.arange(y.shape[0])] += np.linspace(0, 0.5, y.shape[1])
+
+    if cumulative:
+        y = np.cumsum(y, axis=0)
+        width=1.
+    else:
+        width=0.8
+        
+    if invert:
+        y = y[:, ::-1]
+        colors = colors[::-1]
+        age_group_labels = age_group_labels[::-1]
 
     fig = plt.figure(figsize=figsize)
-    for x_col, y_col, color, label in zip(x.transpose(), y.transpose(), colors[:y.shape[1]], age_group_labels):
-        plt.vlines(x_col, np.zeros_like(y_col), y_col, color=color, label=label, lw=linewidth)
+    handles=[]
+    for i, (x_col, y_col, color, label) in enumerate(zip(x.transpose(), y.transpose(), colors[:y.shape[1]], age_group_labels)):
+        # plt.vlines(x_col, np.zeros_like(y_col), y_col, color=color, label=label, lw=linewidth)
+
+        if i==0:
+            b = plt.bar(x_col, y_col, width=width, label=label, color=color)
+        else:
+            b = plt.bar(x_col, y_col, width=width, label=label, color=color, bottom=np.sum(y[:, :i],axis=1))
+
+        handles.append(b)
 
     xtick_labels = [str(date)[:10] for date in date_labels]
-    plt.xticks(np.arange(0, y.shape[0]) + 0.25, xtick_labels, rotation=rot, size='small')
+    # plt.xticks(np.arange(0, y.shape[0]) + 0.25, xtick_labels, rotation=rot, size='small')
+    plt.xticks(np.arange(0, y.shape[0]), xtick_labels, rotation=rot, size='small')
     plt.yticks(size='small')
     plt.ylim(ymin=0)
     plt.grid(axis='y', linestyle='--')
     if flag:
-        plt.legend(loc='upper left', fontsize='small')
+        plt.legend(handles=handles[::-1], loc='upper left', fontsize='small')
 
     plt.title(title, size=14)
     plt.ylabel('št. novo okuženih v starostni skupini', size=10)
